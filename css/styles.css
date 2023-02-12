@@ -1,24 +1,44 @@
+/**** tag selectors ****/
 body {
     background-color: #FFFBEB;
 }
 
 hr {
     border-color: #FFE7CC;
-    border-width: 8px;
     border-style: none;
     border-top-style: dotted;
+    border-width: 8px;
     width: 8%;
 }
 
 h1 {
     color: #F38181;
+    font-size: 100px;
 }
 
-h3 {
+h3, a {
     color: #F38181;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+p, li, table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-/* img {
-    height: 20px;
-} */
+a:hover {
+    color: #F8CBA6;
+}
+
+/**** class selectors ****/
+.onepiece {
+    background-color: none;
+}
+
+.circular {
+    border-radius: 100;
+}
+
+/**** id selectors ****/
+#heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
