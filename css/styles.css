@@ -37,12 +37,11 @@ a {
     background-color: #ECF9FF;
     position: relative;
     padding-top: 100px;
-
+    height: 100vh;
+    /* width: 100vw; */
 }
 
-.middle-container {
-    
-}
+.middle-container {}
 
 .bottom-container {
     background-color: #ECF9FF;
@@ -60,8 +59,9 @@ a {
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
-    bottom: 300px;
+    left: 170px;
+    /* bottom: 300px; */
+    top: 500px;
 }
 
 hr {
@@ -129,18 +129,18 @@ hr {
     background: #F38181;
     padding: 5px 10px 5px 10px;
     text-decoration: none;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background: #FFC7C7;
     text-decoration: none;
-  }
+}
 
-  .footer-link {
+.footer-link {
     margin: auto 10px auto 10px;
-  }
+}
 
-  p {
+p {
     margin-top: 40px;
     margin-bottom: 40px;
-  }
+}
