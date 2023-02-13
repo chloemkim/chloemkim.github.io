@@ -64,6 +64,16 @@ a {
     top: 500px;
 }
 
+.mountain {
+    position: absolute;
+    /* vertical-align:bottom; */
+    display: block;
+    left:0;
+    right:0;
+    bottom:50px;
+    margin:auto;
+}
+
 hr {
     border-color: #FFE7CC;
     border-style: none;
