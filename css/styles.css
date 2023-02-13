@@ -7,7 +7,7 @@ body {
 h1 {
     color: #F38181;
     font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
+    font-size: 7rem;
     /* 100% is 16px */
     /* line-height: 2; */
     margin: 50px auto 0 auto;
@@ -70,6 +70,7 @@ hr {
     border-top-style: dotted;
     border-width: 8px;
     width: 8%;
+    margin: 100px auto 100px auto;
 }
 
 .skills-hr {
@@ -83,7 +84,7 @@ hr {
 .profile-img {
     /* clip-path: circle(); */
     background-color: #ECF9FF;
-    margin-top: 50px;
+    margin-top: 100px;
     width: 15%;
 }
 
