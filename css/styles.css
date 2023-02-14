@@ -1,4 +1,5 @@
 body {
+    color:#393E46;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -18,6 +19,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -27,6 +29,13 @@ h3 {
 
 a {
     color: #967E76;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F38181;
 }
 
 .dev {
@@ -41,13 +50,14 @@ a {
     /* width: 100vw; */
 }
 
-.middle-container {}
+.middle-container {
+    margin: 100px 0;
+}
 
 .bottom-container {
     background-color: #ECF9FF;
     margin-top: 50px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding: 30px 0 20px;
 }
 
 .top-cloud {
@@ -75,12 +85,10 @@ a {
 }
 
 hr {
-    border-color: #FFE7CC;
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 8px;
+    border: dotted #FFE7CC 8px;
+    border-bottom: none;
     width: 8%;
-    margin: 100px auto 100px auto;
+    margin: 100px auto;
 }
 
 .skills-hr {
@@ -94,7 +102,6 @@ hr {
 .profile-img {
     /* clip-path: circle(); */
     background-color: #ECF9FF;
-    margin-top: 100px;
     width: 15%;
 }
 
@@ -115,7 +122,6 @@ hr {
 }
 
 .skill-row {
-    line-height: 2;
     margin: 100px auto 100px auto;
     width: 50%;
     text-align: left;
@@ -146,11 +152,25 @@ hr {
     text-decoration: none;
 }
 
-.footer-link {
-    margin: auto 10px auto 10px;
+p {
+    line-height: 2;
+    /* margin-top: 40px;
+    margin-bottom: 40px; */
 }
 
-p {
-    margin-top: 40px;
-    margin-bottom: 40px;
+.contact-me-description {
+    width: 40%;
+    margin: 40px auto 60px;
+
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.copyright {
+    color: #F38181;
+    font-size: 0.75rem;
+    padding-top: 20px;
 }
